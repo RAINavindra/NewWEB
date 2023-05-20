@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+    
+            <div href="hone" class="active">MYBRAND</div>
+            <div class="">
+            <a class="cus-nav" href="#home">Home</a>
+            <a class="cus-nav" href="#about">About Us</a>
+            <a class="cus-nav" href="#gallery">Gallery</a>
+        
+            <a class="cus-nav" href="#contact">Contact</a>
+          
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          </div>
+          
+    </header>
+    <div class="section-1" id="home">
+        <div class="des">
+        <h1>Lorem ipsum dolor</h1>
+        <div class="p-cus">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, dolore.
+             Deleniti ex enim dolore ducimus placeat? Maiores, repudiandae! Eius, possimus.</p></div>
+             <button>Explore More</button>
+            </div>
+        
+    </div>
+    <div class="section-2" id="about">
+        <div class="sec-2-des">
+            <div class="">
+        <h1>About Us</h1>
+        <div class="p-cus">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Labore dignissimos molestiae eum? Debitis officiis hi
+              voluptatum nulla vel et molestias iure ipsam sapiente dolores.
+              Quae adipisci laboriosam, provident inventore cupiditate dolorem
+              laudantium atque quisquam sed veniam, impedit magnam, minus at?</p>
+              <div class="list-cus">
+                <ol>
+                    <li>Designing</li>
+                    <li>Branding</li>
+                    <li>Printing</li>
+                    <li>Presenting</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+        <img class="sec-2-img" src="meet.png" alt="">
+    </div>
+    </div>
+    <div class="section-3" id="gallery">
+        <div class="gallery">
+        <div class="gallery-1">
+            <img src="https://i.pinimg.com/736x/89/16/c6/8916c6dc560048045579e1f89808100e.jpg" alt="">
+            <img src="https://i.pinimg.com/474x/c4/b7/1d/c4b71d8c3f622a80656996ddcef82a32.jpg" alt="">
+            <img src="https://i.pinimg.com/originals/0a/ac/b8/0aacb849a70675d56b08beedae16dee5.jpg" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgxrtl4du0GQGRVhd0ntaDjs0FJnCiNbBG_A&usqp=CAU" alt="">         
+        </div>
+        <div class="gallery-2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgxrtl4du0GQGRVhd0ntaDjs0FJnCiNbBG_A&usqp=CAU" alt="">
+            <img src="https://i.pinimg.com/originals/0a/ac/b8/0aacb849a70675d56b08beedae16dee5.jpg" alt="">
+            <img src="https://i.pinimg.com/474x/c4/b7/1d/c4b71d8c3f622a80656996ddcef82a32.jpg" alt="">
+            <img src="https://i.pinimg.com/736x/89/16/c6/8916c6dc560048045579e1f89808100e.jpg" alt="">  
+
+        </div>
+    </div>
+    </div>
+    <div class="section-4" id="package">
+        <table>
+            <tr>
+                <th>Package name</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Premium</td>
+                <td>Rs.20 000</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr>
+                <td>Platinum</td>
+                <td>Rs.15 000</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+            </tr>
+            <tr>
+                <td>Silver</td>
+                <td>Rs.10 000</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+            </tr>
+        </table>
+    </div>
+    <div class="section-5" id="contact">
+        <div class="sec-5">
+        <div class="contact">
+            <div>
+                <h2>Contact Us</h2>
+                <p>+94 760 352 179</p>
+                <p>+94 777 552 679</p>
+             </div>
+             <div>
+                <h2>Address</h2>
+                <p>No.5 Galle rod,<br> Colombo 03</p>
+             </div>
+            
+        </div>
+        <div class="cus-form">
+            <form action="" method="post">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="full name" placeholder="Your Name..">
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="last name" placeholder="Your Last Name..">
+
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="australia">Srilanka</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+    </div>
+    <footer>
+        All rights reserved 2023 &copy;
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
+</body>
+</html>
